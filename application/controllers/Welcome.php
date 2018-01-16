@@ -23,10 +23,17 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 
+	 $this->load->view('index');
+
 	    //redirect(base_url('/Login'));
 
 		//$this->load->view('welcome_message');
 	}
+
+	public function vue_cart(){
+
+	    $this->load->view('vue_cart');
+    }
 
 	public function getMessage($a=0,$b=0,$c=0){
 
