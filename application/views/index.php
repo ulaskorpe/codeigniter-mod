@@ -34,5 +34,5 @@
 </body>
 </html>
 
-<script src="js/app.js"></script>
+<script type="text/javascript" src="<?=base_url('/js/app.js')?>"></script>
 

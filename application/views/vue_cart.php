@@ -11,13 +11,10 @@
 </head>
 <body>
 
-<div id="app">
+<div id="app2">
 <p v-if="isLoading">Loading</p>
-
-
-    {{message}}
 </div>
 
 </body>
 </html>
-<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="<?=base_url('/js/cart_app.js')?>"></script>
