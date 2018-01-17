@@ -4,29 +4,36 @@
     {
       "url":"amazon.con",
       "name":"title 1",
-      "image":"a.jpg",
+      "image":"http://codeigniter.test/img/a.jpg",
       "seller":"seller 1",
       "isAvailable": true,
-      "isEligible":true
+      "isEligible":true,
+      "price":"99.2"
     }
 ,
     {
       "url":"amazon.con",
       "name":"title 2",
-      "image":"b.jpg",
+      "image":"http://codeigniter.test/img/b.jpg",
       "seller":"seller 1",
-      "isAvailable": true,
-      "isEligible":true
+      "isAvailable": false,
+      "isEligible":true,
+      "price":"20.13"
     }
     ,
     {
       "url":"amazon.con",
       "name":"title 3",
-      "image":"c.jpg",
+      "image":"http://codeigniter.test/img/c.jpg",
       "seller":"seller 3",
       "isAvailable": true,
-      "isEligible":true
+      "isEligible":false,
+      "price":"66.6"
     }
+  ]
+  ,
+  "saved":[
+
   ]
 
 }
